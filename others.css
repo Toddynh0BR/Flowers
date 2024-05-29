@@ -1,8 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pinyon Script", cursive;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+.duck1 {
+    width: 20rem;
+    height: 25rem;
+    padding-top: 1rem;
+}
+
+h1, h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 3rem;
+}
+
 .ilove {
- z-index: 1000;
- width: 100px;
- height: 100px;
+    z-index: 10;
+    position: absolute;
+    top: 1rem;
+    width: 40rem;
+    height: 50rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(185, 12, 12);
+    border: none;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 21px -12px rgba(0, 0, 0, 0.75);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(185, 12, 12);
+}
+
+#YES {
+    margin-left: 2rem;
+}
+
+#NO {
+    position: absolute;
+    margin-left: 20rem;
+    z-index: 10000;
+
+    transition: .2s ease-in;
+}
+
+.after {
+ width: 10rem;
  position: absolute;
- top: 0;
- background-color: blue;
+ top: .5rem;
+ z-index: 1000000;
+
+ background-color: whitesmoke;
+ width: 20rem;
+ height: 21rem;
+ border-radius: 1rem;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: .3s ease-in;
+}
+
+.duck2 {
+ width: 18rem;
+ height: 20rem;
+}
+
+.hide {
+ display: none;
 }

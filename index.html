@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" 
+          rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="others.css">
     <script src="script.js" defer></script>
+
     <title>For my Love</title>
            <!--M_Y-->
 </head>
@@ -13,12 +19,26 @@
     <body class="not-loaded">
 
       <main class="ilove">
-        <h1>Quer ficar comigo Patodavida?</h1>
-      <div class="buttons">
-        <button id="YES">Sim</button>
-        <button id="NO">Não</button>
-      </div>
-      </main>
+        <div class="div1">
+            <h1>Feliz dia dos Namorados!</h1>
+            <img src="assets/duck1.jpg" alt="imagem de um pato fazendo joinha" class="duck1">
+        </div>
+
+        <div class="div">
+            <h2>Quer ficar comigo <br> Patodavida?</h2>
+
+            <div class="buttons">
+                <button id="YES">Sim</button>
+                <button id="NO" onmouseover="Escape()" onclick="Escape()">Não</button>
+            </div>
+        </div>
+    </main>
+
+
+   <div class="after hide">
+    <img src="assets/duck2.jpg" alt="pato tocando violao" class="duck2">
+    <audio src="assets/audio.weba" id="audio"></audio>
+   </div>
 
 
 
